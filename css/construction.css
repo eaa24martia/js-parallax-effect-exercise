@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/glinda-construction.png); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-color: #e776a0;
+}
+
+.construction-container {
+    text-align: center;
+    z-index: 100; 
+}
+
+h1 {
+    color: white; 
+    font-size: 5em;
+}
+
+.construction-glinda {
+    max-width: 100vh;
+    height: auto;
+    margin-top: 20px;
+    opacity: 50%;
+    z-index: -1; 
+}
